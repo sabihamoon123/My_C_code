@@ -2,10 +2,11 @@
 int main ()
 {
    int a[100], i, value, n, pos=-1 ;
-   printf("enter the elements in array:") ;
+   printf("enter the number of elements in array:") ;
    scanf("%d",&n) ;
    for (i=0;i<n;i++)
    {
+       printf("the elements:") ;
        scanf("%d" ,&a[i]) ;
    }
    printf("enter the value you want to search:") ;
